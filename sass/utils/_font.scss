@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'BBC Reith Sans';
+  src: url('../fonts/BBCReithSans_W_Bd.eot');
+  src: url('../fonts/BBCReithSans_W_Bd.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BBCReithSans_W_Bd.woff') format('woff'),
+    url('../fonts/BBCReithSans_W_Bd.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'BBC Reith Sans';
+  src: url('../fonts/BBCReithSans_W_Md.eot');
+  src: url('../fonts/BBCReithSans_W_Md.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BBCReithSans_W_Md.woff') format('woff'),
+    url('../fonts/BBCReithSans_W_Md.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+$primary-font: 'Noto Sans', sans-serif;
+$header-font: 'BBC Reith Sans', sans-serif;
