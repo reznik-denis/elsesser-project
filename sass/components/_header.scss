@@ -1,0 +1,13 @@
+.navbar {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+  @media screen and (min-width: 992px) {
+    margin-left: 121px;
+    margin-right: 121px;
+  }
+}
