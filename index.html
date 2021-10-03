@@ -12,7 +12,7 @@
 <body>
     <!-- Шапка сайта -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/Logo 4.jpg" alt="Logo" width="80">
@@ -25,28 +25,55 @@
                         </svg>
                     </span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Über Uns</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav justify-content-between">
+                        <li class="nav-item ">
+                            <a class="nav-link nav-color" href="#">Über Uns</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-color active" id="navbarDropdown" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Produkte
+                            <svg class="icon" width="12" height="6">
+                                <use href="./images/sprite-compress.svg#icon-Vector-2"></use>
+                            </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-color" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Peripherietechnik
+                                <svg class="icon" width="12" height="6">
+                                    <use href="./images/sprite-compress.svg#icon-Vector-2"></use>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-color" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dienstleistungen
+                                <svg class="icon" width="12" height="6">
+                                    <use href="./images/sprite-compress.svg#icon-Vector-2"></use>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Produkte</a>
+                            <a class="nav-link nav-color" href="#">Klimatechnik</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Peripherietechnik</a>
+                            <a class="nav-link nav-color" href="#">Kontakt</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Dienstleistungen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Klimatechnik</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Presse</a>
+                            <a class="nav-link nav-color" href="#">Presse</a>
                         </li>
                     </ul>
                 </div>

@@ -1,9 +1,12 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-Vector-2" viewBox="0 0 64 32">
+<path fill="none" stroke="#45494f" style="stroke: var(--color1, #45494f)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="10.6667" d="M58.667 5.333l-26.667 21.333-26.667-21.333"></path>
+</symbol>
 <symbol id="icon-Group-22" viewBox="0 0 45 32">
-<path fill="#c4c4c4" style="fill: var(--color1, #c4c4c4)" d="M2.133 25.6h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
-<path fill="#c4c4c4" style="fill: var(--color1, #c4c4c4)" d="M2.133 12.8h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
-<path fill="#c4c4c4" style="fill: var(--color1, #c4c4c4)" d="M2.133 0h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
+<path fill="#c4c4c4" style="fill: var(--color2, #c4c4c4)" d="M2.133 25.6h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
+<path fill="#c4c4c4" style="fill: var(--color2, #c4c4c4)" d="M2.133 12.8h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
+<path fill="#c4c4c4" style="fill: var(--color2, #c4c4c4)" d="M2.133 0h40.533c1.178 0 2.133 0.955 2.133 2.133v2.133c0 1.178-0.955 2.133-2.133 2.133h-40.533c-1.178 0-2.133-0.955-2.133-2.133v-2.133c0-1.178 0.955-2.133 2.133-2.133z"></path>
 </symbol>
 <symbol id="icon-Geringe-Stellflche" viewBox="0 0 40 32">
 <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.724 0.821c0-0.227-0.184-0.41-0.41-0.41h-13.493c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-4.987h10.384c0.227 0 0.41-0.184 0.41-0.41v-2.699z"></path>
