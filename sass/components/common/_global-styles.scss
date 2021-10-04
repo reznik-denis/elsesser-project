@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
-  color: $primary-white-color;
+  color: $primary-text-color;
   background-color: #e5e5e5;
 
   max-width: 1442px;
@@ -34,6 +34,6 @@ img {
   height: auto;
 }
 
-.section {
-  background-color: $bacground-second-color;
+section {
+  background-color: $bacground-color;
 }
