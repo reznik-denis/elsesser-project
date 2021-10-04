@@ -1,0 +1,82 @@
+.padding-leistungen {
+  padding-top: 40px;
+}
+
+.title-leistungen {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2.42px;
+
+  margin-bottom: 23px;
+
+  color: $accent-color;
+}
+
+.description-leistungen {
+  font-size: 17px;
+  line-height: 32px;
+
+  color: $primary-text-color;
+
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+
+.padding-bottom {
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+.thumb {
+  padding-right: 0;
+  img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+.image-position {
+  object-fit: cover;
+}
+
+.bg-accent-color {
+  background: linear-gradient(180deg, #163da2 0%, #003584 100%);
+}
+
+.color-and-padding {
+  color: $primary-white-color;
+
+  padding-right: 220px;
+}
+
+.thumb-leistungen {
+  padding: 0;
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 729px;
+  }
+}
+
+.padding-leistungen-unsere {
+  padding: 0;
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 500px;
+  }
+}
+
+.unsere {
+  padding-top: 91px;
+}
+
+.description-unsere {
+  padding-right: 0;
+}
+
+.padding-left {
+  padding-left: 121px;
+}
