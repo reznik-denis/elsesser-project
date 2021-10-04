@@ -1,4 +1,4 @@
-.container.mixer {
+.mixer {
   margin-left: 15px;
   margin-right: 15px;
   width: 100%;
@@ -9,13 +9,13 @@
   }
 }
 
-.row {
-  min-height: 100%;
-}
-
 .padding-hero {
   padding-top: 70px;
   padding-bottom: 40px;
+
+  .row {
+    min-height: 100%;
+  }
 }
 
 .title-hero {
@@ -65,4 +65,3 @@
     left: 0%;
   }
 }
-
