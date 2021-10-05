@@ -645,10 +645,6 @@ section {
   border: 1px solid #bed8ff;
 }
 
-.thumb-bilder {
-  margin-bottom: 50px;
-}
-
 @media screen and (min-width: 992px) {
   .thumb-bilder {
     margin-bottom: 150px;
@@ -682,23 +678,37 @@ section {
 
 .besucher {
   background: inherit;
-  margin-bottom: 82px;
+  margin: 0 8px 50px 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .besucher {
+    margin: 0 0 82px 0;
+  }
 }
 
 .besucher h2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 4.42px;
   color: #020303;
-  margin-bottom: 51px;
-  margin-top: 71px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .besucher h2 {
+    font-size: 28px;
+    margin-bottom: 51px;
+    margin-top: 71px;
+  }
 }
 
 .style-button {
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 40px;
   letter-spacing: 1.42px;
   color: #fafbfe;
@@ -712,6 +722,12 @@ section {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
   border-radius: 12px;
   padding: 13px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .style-button {
+    font-size: 17px;
+  }
 }
 
 .box-besucher {
