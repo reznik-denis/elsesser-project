@@ -430,6 +430,13 @@ section {
 .ihre-vorteile {
   background-color: inherit;
   margin-bottom: 57px;
+  margin: 0 8px 0 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .ihre-vorteile {
+    margin: 0;
+  }
 }
 
 .ihre-vorteile h2 {
@@ -500,6 +507,13 @@ section {
 .hauptmerkmale {
   background: inherit;
   margin-bottom: 74px;
+  margin: 56px 12px 32px 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .hauptmerkmale {
+    margin: 56px 0 74px 0;
+  }
 }
 
 .hauptmerkmale-bg {
@@ -512,12 +526,19 @@ section {
 .hauptmerkmale-bg h2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 4.42px;
   color: #020303;
   padding-top: 43px;
-  padding-bottom: 71px;
+  padding-bottom: 37px;
+}
+
+@media screen and (min-width: 992px) {
+  .hauptmerkmale-bg h2 {
+    font-size: 28px;
+    padding-bottom: 71px;
+  }
 }
 
 .hauptmerkmale-bg div {
@@ -528,11 +549,19 @@ section {
 }
 
 .hauptmerkmale-bg .row {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-.hauptmerkmale-bg .col-md-6 {
-  padding-left: 52px;
+@media screen and (min-width: 992px) {
+  .hauptmerkmale-bg .row {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hauptmerkmale-bg .col-md-6 {
+    padding-left: 52px;
+  }
 }
 
 .bilder {

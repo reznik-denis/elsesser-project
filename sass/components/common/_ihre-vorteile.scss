@@ -5,6 +5,10 @@
 .ihre-vorteile {
   background-color: inherit;
   margin-bottom: 57px;
+  margin: 0 8px 0 8px;
+  @media screen and (min-width: 992px) {
+    margin: 0;
+  }
   h2 {
     text-transform: uppercase;
     font-weight: 500;

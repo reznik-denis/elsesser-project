@@ -1,6 +1,10 @@
 .hauptmerkmale {
   background: inherit;
   margin-bottom: 74px;
+  margin: 56px 12px 32px 12px;
+  @media screen and (min-width: 992px) {
+    margin: 56px 0 74px 0;
+  }
 }
 
 .hauptmerkmale-bg {
@@ -10,14 +14,18 @@
   h2 {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 4.42px;
 
     color: $text-color;
 
     padding-top: 43px;
-    padding-bottom: 71px;
+    padding-bottom: 37px;
+    @media screen and (min-width: 992px) {
+      font-size: 28px;
+      padding-bottom: 71px;
+    }
   }
 
   div {
@@ -29,10 +37,15 @@
   }
 
   .row {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    @media screen and (min-width: 992px) {
+      padding-bottom: 40px;
+    }
   }
 
   .col-md-6 {
-    padding-left: 52px;
+    @media screen and (min-width: 992px) {
+      padding-left: 52px;
+    }
   }
 }
