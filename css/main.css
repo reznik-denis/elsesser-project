@@ -566,16 +566,30 @@ section {
 
 .bilder {
   background: inherit;
+  margin: 0 12px 0 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .bilder {
+    margin: 0;
+  }
 }
 
 .bilder h2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 4.42px;
   color: #020303;
-  margin-bottom: 31px;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 992px) {
+  .bilder h2 {
+    font-size: 28px;
+    margin-bottom: 31px;
+  }
 }
 
 .bilder .active {
@@ -583,41 +597,41 @@ section {
 }
 
 .carousel-item img {
-  height: 813px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 468px;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media screen and (min-width: 992px) {
+  .carousel-item img {
+    height: 813px;
+  }
+}
+
 .carousel-control-prev {
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-          box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-  border-radius: 8px;
-  width: 126px;
-  height: 78px;
-  z-index: 2;
   top: 90%;
   left: 35%;
 }
 
 .carousel-control-next {
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-          box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-  border-radius: 8px;
-  width: 126px;
-  height: 78px;
-  z-index: 2;
   top: 90%;
   right: 35%;
 }
 
 .carousel-inner {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .carousel-indicators {
   top: 85%;
+}
+
+@media screen and (min-width: 992px) {
+  .carousel-indicators {
+    top: 95%;
+  }
 }
 
 .carousel-indicators [data-bs-target] {
@@ -629,6 +643,41 @@ section {
   background: -webkit-gradient(linear, left top, left bottom, from(#005be4), to(rgba(0, 96, 241, 0))), #004fc7;
   background: linear-gradient(180deg, #005be4 0%, rgba(0, 96, 241, 0) 100%), #004fc7;
   border: 1px solid #bed8ff;
+}
+
+.thumb-bilder {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .thumb-bilder {
+    margin-bottom: 150px;
+  }
+}
+
+.thumb-bilder button {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+  .thumb-bilder button {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+            box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    width: 126px;
+    height: 78px;
+    z-index: 2;
+    overflow: visible;
+    clip: unset;
+  }
 }
 
 .besucher {
