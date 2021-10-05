@@ -744,34 +744,66 @@ section {
 
 .kontakt h3 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 26px;
   line-height: 43px;
+  margin-top: 20px;
   letter-spacing: -0.4px;
+  text-align: center;
   color: #1652ac;
 }
 
+@media screen and (min-width: 992px) {
+  .kontakt h3 {
+    font-size: 34px;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
 .kontakt p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: -0.4px;
   color: #45494f;
 }
 
+@media screen and (min-width: 992px) {
+  .kontakt p {
+    font-size: 17px;
+  }
+}
+
 .btn-kontakt {
-  width: 306px;
+  width: 100%;
   height: 69px;
+  font-size: 18;
   text-transform: none;
   font-weight: 600;
   text-align: left;
 }
 
+@media screen and (min-width: 992px) {
+  .btn-kontakt {
+    width: 306px;
+    height: 69px;
+  }
+}
+
 .btn-kontakt::before {
   display: inline-block;
   content: '';
-  width: 79px;
+  width: 124px;
   height: 15px;
-  background-image: url(../images/Arrow4.svg);
-  margin-right: 40px;
+  background-image: url(../images/Arrow4l.svg);
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .btn-kontakt::before {
+    width: 79px;
+    margin-right: 40px;
+    background-image: url(../images/Arrow4.svg);
+  }
 }
 
 .footer {
