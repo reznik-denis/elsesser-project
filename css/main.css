@@ -822,6 +822,7 @@ section {
   font-size: 17px;
   line-height: 32px;
   letter-spacing: -0.4px;
+  margin: 0;
   list-style: none;
   padding: 0;
   color: #9eabbb;
@@ -833,6 +834,7 @@ section {
 }
 
 .color-link {
+  display: block;
   color: #9eabbb;
 }
 /*# sourceMappingURL=main.css.map */

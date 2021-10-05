@@ -15,7 +15,7 @@
   font-size: 17px;
   line-height: 32px;
   letter-spacing: -0.4px;
-
+  margin: 0;
   list-style: none;
   padding: 0;
 
@@ -28,5 +28,6 @@
 }
 
 .color-link {
+  display: block;
   color: $footer-second-text-color;
 }
