@@ -503,7 +503,7 @@
             </div>
             <div class="row justify-content-center pb-5">
                 <div class="col-12 col-md-3">
-                    <button type="button" class="btn btn-primary style-button btn-kontakt">Kontakt</button>
+                    <button type="button" class="btn btn-primary style-button btn-kontakt" data-bs-toggle="modal" data-bs-target="#exampleModal">Kontakt</button>
                 </div>  
             </div>
         </div>
@@ -544,6 +544,47 @@
             </div>
         </div>
     </footer>
+    <!-- Модальне вікно -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Kontakt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-header">Hinterlassen Sie Ihre Daten, wir rufen Sie zurück</h4>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                        <input name="name" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Telefon</label>
+                        <input type="tel" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Ein Kommentar</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ich stimme dem Newsletter zu und akzeptiere
+                            <a class="policy-web" href="">Bedingungen einer Vereinbarung</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Eine Nachricht schicken</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nah dran</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
