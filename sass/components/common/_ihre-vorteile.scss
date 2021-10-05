@@ -8,14 +8,19 @@
   h2 {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 4.42px;
 
     color: $text-color;
 
-    padding-top: 67px;
+    padding-top: 27px;
     padding-bottom: 42px;
+    @media screen and (min-width: 992px) {
+      font-size: 28px;
+      padding-top: 67px;
+      padding-bottom: 42px;
+    }
   }
 
   .col-md-4 {
@@ -35,13 +40,17 @@
   background: $bacground-color;
   p {
     font-weight: 500;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 32px;
     letter-spacing: -0.4px;
 
     color: $primary-text-color;
 
-    padding-right: 49px;
+    padding-right: 40px;
+    @media screen and (min-width: 992px) {
+      font-size: 19px;
+      padding-right: 49px;
+    }
   }
 
   img {
@@ -49,6 +58,9 @@
     margin-right: auto;
   }
   .not-padding {
-    padding: 0;
+    padding-right: 40px;
+    @media screen and (min-width: 992px) {
+      padding: 0;
+    }
   }
 }

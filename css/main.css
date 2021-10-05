@@ -435,12 +435,20 @@ section {
 .ihre-vorteile h2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 4.42px;
   color: #020303;
-  padding-top: 67px;
+  padding-top: 27px;
   padding-bottom: 42px;
+}
+
+@media screen and (min-width: 992px) {
+  .ihre-vorteile h2 {
+    font-size: 28px;
+    padding-top: 67px;
+    padding-bottom: 42px;
+  }
 }
 
 .ihre-vorteile .col-md-4 {
@@ -460,11 +468,18 @@ section {
 
 .box-ihre p {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 32px;
   letter-spacing: -0.4px;
   color: #45494f;
-  padding-right: 49px;
+  padding-right: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-ihre p {
+    font-size: 19px;
+    padding-right: 49px;
+  }
 }
 
 .box-ihre img {
@@ -473,7 +488,13 @@ section {
 }
 
 .box-ihre .not-padding {
-  padding: 0;
+  padding-right: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-ihre .not-padding {
+    padding: 0;
+  }
 }
 
 .hauptmerkmale {
