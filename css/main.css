@@ -114,6 +114,11 @@ section {
   stroke: #2e75ff;
 }
 
+.hero {
+  -webkit-box-shadow: 0px 11px 14px -11px rgba(34, 60, 80, 0.26) inset;
+          box-shadow: 0px 11px 14px -11px rgba(34, 60, 80, 0.26) inset;
+}
+
 .mixer {
   padding: 0;
   width: 100%;
@@ -561,6 +566,39 @@ section {
 @media screen and (min-width: 992px) {
   .hauptmerkmale-bg .col-md-6 {
     padding-left: 52px;
+  }
+}
+
+.border-element {
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .border-element {
+    position: static;
+  }
+}
+
+.border-element::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 227px;
+  height: 1px;
+  background-color: #eef0f4;
+  bottom: 20%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media screen and (min-width: 992px) {
+  .border-element::after {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 }
 

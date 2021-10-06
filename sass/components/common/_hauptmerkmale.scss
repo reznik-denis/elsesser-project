@@ -49,3 +49,28 @@
     }
   }
 }
+
+.border-element {
+  position: relative;
+  @media screen and (min-width: 992px) {
+    position: static;
+  }
+  &::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 227px;
+    height: 1px;
+    background-color: #eef0f4;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    @media screen and (min-width: 992px) {
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
+  }
+}
